@@ -12,8 +12,12 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <!-- Splash screen -->
-
-
+    </style>
+    <!-- Splash screen -->
+    <style name="SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/rosa_splash</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/group_123</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.DefesaSegura</item>
     </style>
 </resources>
